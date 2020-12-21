@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+background-color: yellow;
+
+background-repeat:no-repeat;
+background-size:28%;
+background-position:right 600px top 370px;
+font-size: 24px;
+color: gray;
+text-align: center;
+font-style: oblique;
+}
+button{
+border-color: black;
+padding:6px 22px;
+border-radius: 7px;
+margin-bottom: 70px;
+color:black;
+font-size: 22px;
+letter-spacing: 2px;
+text-decoration:none;
+font-style:noir;
+}
+</style> 
+<script>
+function zodiac() {
+document.getElementById("sign").innerHTML= "<b>CAPRICORN</b>";
+document.getElementById("photo").innerHTML= "<img src='capricorn.jpg'width=20%>";
+document.getElementById("personality").innerHTML = "<b>Personality</b><br><br>December 24th birthday personality says that Capricorn is the Sign of stability, calmness and maturity. Being hard workers independence and attention to detail are big for Capricorns. ";
+}
+</script>
+<body>  
+<br>
+<br>
+<b> Birthday: December 24 1999</b></p>
+<br>
+<button type="button" onclick="zodiac()"><b>My Zodiac Sign</b></button>
+<p id="sign">
+<p id="photo">
+<p id="personality">
+</body>
+</html>
